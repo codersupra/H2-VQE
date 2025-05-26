@@ -38,7 +38,7 @@ This is a project for comparing the ground state energies of H2 molecule obtaine
   
 
 ## Results:
-Circuit.png shows the photonic ansatz
+Circuit.png shows the photonic ansatz and 
 Fig1.png in the results folder shows the convergence curve for the photonic processor ansatz.
 
 1. Photonic Ansatz: -1.1356 Hartrees
