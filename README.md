@@ -21,11 +21,4 @@ Fig1.jpg in the results folder shows the convergence curve for the photonic proc
 3. UCCSD Ansatz: -1.1373 Hartrees
 
 ## Reference:
-  @unknown{unknown,
-  author = {Ghavami, Badie and Mirmasuodi, Forouzan},
-  year = {2025},
-  month = {04},
-  pages = {},
-  title = {Ground State Energy of Helium Using a Four-Qubit Photonic Processor with the Variational Quantum Eigensolver (VQE)},
-  doi = {10.48550/arXiv.2504.07568}
-  }
+  Ghavami, Badie & Mirmasuodi, Forouzan. (2025). Ground State Energy of Helium Using a Four-Qubit Photonic Processor with the Variational Quantum Eigensolver (VQE). 10.48550/arXiv.2504.07568. 
