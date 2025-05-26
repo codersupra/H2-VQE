@@ -4,6 +4,30 @@ This is a project for comparing the ground state energies of H2 molecule obtaine
 ## Methods:
   ### 1. Photonic Quantum Processor (Custom Ansatz)
 
+      Electronic structure problem defined via PySCFDriver using the STO-3G basis and a frozen-core approximation.
+
+      Mapping: Jordan-Wigner transformation to convert fermionic operators to qubit operators.
+      
+      Ansatz: Custom photonic-inspired circuit with parameterized gates and entangling blocks.
+      
+      Optimizer: COBYLA (classical optimizer from SciPy's minimize method).
+      
+      Estimator: StatevectorEstimator from Qiskit Primitives for expectation value calculation.
+  ### 2. Real Amplitude Ansatz (Superconducting Qubits)
+
+      Electronic Structure Problem: Defined using the PySCFDriver with the STO-3G basis set and a frozen-core approximation to reduce the active space and improve computational efficiency.
+
+      Mapping Scheme: Applied the Jordan-Wigner transformation to convert the second-quantized fermionic Hamiltonian into a qubit-based representation compatible with quantum circuits.
+      
+      Ansatz Design: Employed a custom photonic-inspired ansatz built using Qiskit’s RealAmplitudes template, incorporating parameterized single-qubit rotation gates and entangling CNOT blocks across four qubits to capture electronic correlations.
+      
+      Optimization: Utilized the COBYLA algorithm from SciPy's minimize method to iteratively adjust the ansatz parameters and minimize the expectation value of the Hamiltonian.
+      
+      Estimator: Used Qiskit's StatevectorEstimator to compute expectation values of the Hamiltonian with respect to the variational quantum state, simulating ideal (noiseless) quantum measurement outcomes.
+  ### 3. UCCSD Ansatz (Superconducting Qubits)
+
+      Electronic structure problem defined via PySCFDriver using the STO-3G basis.
+
       Mapping: Jordan-Wigner transformation to convert fermionic operators to qubit operators.
       
       Ansatz: UCCSD with Hartree-Fock initial state.
@@ -14,7 +38,8 @@ This is a project for comparing the ground state energies of H2 molecule obtaine
   
 
 ## Results:
-Fig1.jpg in the results folder shows the convergence curve for the photonic processor ansatz.
+Circuit.png shows the photonic ansatz
+Fig1.png in the results folder shows the convergence curve for the photonic processor ansatz.
 
 1. Photonic Ansatz: -1.1356 Hartrees
 2. Real Amplitude Ansatz: -1.13568 Hartrees
