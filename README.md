@@ -14,8 +14,18 @@ This is a project for comparing the ground state energies of H2 molecule obtaine
   
 
 ## Results:
-Fig1.jpg shows the convergence curve for the photonic processor ansatz.
+Fig1.jpg in the results folder shows the convergence curve for the photonic processor ansatz.
 
 1. Photonic Ansatz: -1.1356 Hartrees
 2. Real Amplitude Ansatz: -1.13568 Hartrees
 3. UCCSD Ansatz: -1.1373 Hartrees
+
+## Reference:
+  @unknown{unknown,
+  author = {Ghavami, Badie and Mirmasuodi, Forouzan},
+  year = {2025},
+  month = {04},
+  pages = {},
+  title = {Ground State Energy of Helium Using a Four-Qubit Photonic Processor with the Variational Quantum Eigensolver (VQE)},
+  doi = {10.48550/arXiv.2504.07568}
+  }
