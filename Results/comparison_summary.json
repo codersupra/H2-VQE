@@ -1,15 +1,15 @@
 [
   {
     "method": "Photonic Ansatz",
-    "energy": null
+    "energy": -1.13567
   },
   {
     "method": "Real Amplitude Ansatz",
-    "energy": null
+    "energy": -1.13568
   },
   {
     "method": "UCCSD Ansatz",
-    "energy": null
+    "energy": -1.13568
   },
   {
     "method": "Scipy Minimizer",
