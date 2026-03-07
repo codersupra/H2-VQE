@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+pandas
+qiskit[visualization]
+qiskit-aer
+qiskit-ibm-runtime
+qiskit-nature
+qiskit-algorithms
+pyscf
